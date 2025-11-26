@@ -1,0 +1,175 @@
+.primerDivProd{
+    background-color: #D9D9D9;
+}
+.productos{
+    background-color: #fff;
+}
+
+.productos table .imgProd img{
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    padding: 2px;
+}
+.productos table .imgProd a,.productos table .imgProd div{
+    width: 100%;
+    height: 100%;
+}
+.productos table .imgProd{
+    border: 1px solid #000;
+    border-radius: 7px;
+    width: 7rem;
+    height: 7rem;
+}
+.productos table{
+    border: 1px solid #000;
+}
+.productos table.footerTable{
+    border-top: none;
+}
+.productos table th{
+    border-left: 1px solid #000;
+    background-color: #F3F3F3;
+}
+.productos table.footerTable th{
+    border-left: none;
+    border-bottom: 1px solid #000;
+}
+.productos table.footerTable .centerTable{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.productos table th p{
+    text-align: center;
+}
+.productos table .firstTh{
+    border-left: none;
+}
+
+.productos table tbody tr{
+    border-top: 1px solid #000;
+}
+.productos table td{
+    border-left: 1px solid #000;
+}
+.productos table .emptyBody td{
+    height: 2rem;
+}
+.productos table td.firstTd{
+    border-left: none;
+}
+.productos table .txtTh{
+    font-weight: normal;
+}
+
+.productos table .producto .btnsProd button{
+    border-radius: 7px;
+    border: 1px solid #000;
+    height: fit-content;
+    width: 1.5rem;
+}
+.productos table .producto .btnsProd button.editProducto:hover{
+    background-color: #eaeaea;
+}
+.productos table .producto .btnsProd button.deleteProducto{
+    background-color: #FFAAAA;
+}
+.productos table .producto .btnsProd button.deleteProducto:hover{
+    background-color: #ff8b8b;
+}
+
+#div-fotos-newCompra .drop-area{
+    width: 90%;
+    min-height: 10rem;
+}
+#preview-fotos-newCompra{
+    height: 7rem;
+    overflow-y: auto;
+}
+.proveedorCompra{
+    vertical-align: top;
+}
+#preview-fotos-newCompra img {
+    width: 6.4rem;
+    height: fit-content;
+}
+
+#fechaCompra-newCompra{
+    width: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+table select,
+table ::picker(select){
+    appearance: base-select!important;
+}
+table select:focus{
+    box-shadow: none!important;
+}
+table select{
+    background-color: #fff!important;
+    color: #000;
+    border: 1px solid #ced4da!important;
+    align-items: center!important;
+    width: 50%!important;
+    padding-top: 1px!important;
+    padding-bottom: 1px!important;
+}
+table select selectedcontent{
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+    overflow: hidden!important;
+}
+table select::picker-icon{
+    color: #00000000!important;
+    width: 0.75rem!important;
+    height: 0.75rem!important;
+    background-image: url("@/../assets/icons/down.svg")!important;
+    background-repeat: no-repeat!important;
+    background-size: 0.75rem!important;
+    background-position: center!important;
+}
+table select:open::picker-icon{
+    background-image: url("@/../assets/icons/up.svg")!important;
+}
+table ::picker(select){
+    border: 1px solid #ced4da!important;
+    border-radius: 7px!important;
+    width: fit-content!important;
+    overflow-x: auto!important;
+}
+table select option{
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+    padding-left: 0.75rem!important;
+    padding-right: 0.75rem!important;
+    width: 100%!important;
+    gap: unset!important;
+}
+table select option:nth-of-type(odd){
+    background-color: #f5f5f5!important;
+}
+table select option:hover{
+    background-color: #e1e1e1!important;
+}
+table select option:checked{
+    background-color: #D7D7D7!important;
+}
+table select option::checkmark{
+    content: none!important;
+}
+
+
+#invalid-fechaCompra-newCompra{
+    width: 91.66666667%!important;
+}
+
+#btnConfirmarCompra:hover{
+    background-color: #2a129d;
+}
+#btnConfirmarCompra{
+    background-color: #421CFF;
+    color: #fff;
+    border: 1px solid #ced4da!important;
+}

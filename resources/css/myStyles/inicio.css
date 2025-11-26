@@ -1,0 +1,364 @@
+.buscadorInicio div{
+    background-color: #D9D9D9;
+    border-radius: 7px;
+}
+.buscadorInicio form .form-control:focus{
+    box-shadow:0 0 0 0 #00000000;
+}
+.buscadorInicio form .form-control{
+    border: none;
+    border-radius: 7px 0 0 7px;
+    font-size: large;
+    color: #000;
+}
+.buscadorInicio form .btnBuscar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.5vh;
+    background-image: url("@/../assets/icons/search.svg");
+    background-repeat: no-repeat;
+    background-size: 5vh;
+    background-position: left;
+    border-radius: 7px;
+    background-color: #FFF;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding: 1.5vh;
+    border: none;
+}
+
+
+.modal .modal-header{
+    background-color: #7AA1F7;
+}
+.modal .modal-body{
+    background-color: #EEEEEE;
+}
+.modal .modal-footer{
+    background-color: #6750EC;
+}
+.modal .modal-body label{
+    font-size: larger;
+}
+.modal .modal-body select,.modal .modal-body select[multiple],
+.modal .modal-body ::picker(select),.modal .modal-body ::picker(select[multiple]){
+    appearance: base-select;
+}
+.modal .modal-body select,.modal .modal-body select[multiple]{
+    align-items: center;
+}
+.modal .modal-body select::picker-icon,.modal .modal-body select[multiple]::picker-icon{
+    color: #00000000;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("@/../assets/icons/down.svg");
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position: center;
+}
+.modal .modal-body select:open::picker-icon,.modal .modal-body select[multiple]:open::picker-icon{
+    background-image: url("@/../assets/icons/up.svg")!important;
+}
+.modal .modal-body ::picker(select),.modal .modal-body ::picker(select[multiple]){
+    border: 1px solid #000000;
+    border-radius: 7px;
+    width: 20%;
+    overflow-x: auto;
+    max-height: 50%;
+}
+.modal .modal-body select option,.modal .modal-body select[multiple] option{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 100%;
+    overflow: hidden;
+}
+.modal .modal-body select option:nth-of-type(odd),.modal .modal-body select[multiple] option:nth-of-type(odd){
+    background-color: #f5f5f5;
+}
+.modal .modal-body select option:hover,.modal .modal-body select[multiple] option:hover{
+    background-color: #D7D7D7;
+}
+
+.modal .modal-body select option::checkmark,.modal .modal-body select[multiple] option::checkmark{
+    content: none;
+}
+.modal .modal-body select:-internal-list-box option:checked{
+    color: #000!important;
+    background-color: #D7D7D7!important;
+}
+.modal .modal-body #btn-proveedores-newProd{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ced4da;
+}
+.modal .modal-body #btn-proveedores-newProd img{
+    width: 1rem;
+}
+.modal .modal-body #collapse-proveedores-newProd{
+    background-color: #fff;
+}
+.modal .modal-body #collapse-proveedores-newProd.show{
+    visibility: visible;
+    transition-behavior: allow-discrete;
+}
+.modal .modal-body #collapse-proveedores-newProd .card{
+    border-radius: unset;
+    border: unset;
+    height: 14.75rem;
+    overflow-y: auto;
+}
+.modal .modal-body #collapse-proveedores-newProd .card label{
+    width: 100%;
+    font-size: large;
+}
+.modal .modal-body #collapse-proveedores-newProd .card label:hover{
+    cursor: pointer;
+    background-color: #93a9ff;
+}
+.modal .modal-body #collapse-proveedores-newProd.collapse{
+    position: absolute;
+    height: 15rem;
+    border-radius: 7px;
+    border: 1px solid #000;
+    overflow-y: hidden;
+    width: 30%;
+}
+.modal .modal-body #collapse-proveedores-newProd.collapsing{
+    position: absolute;
+    height: 0;
+    border-radius: 7px;
+    border: 1px solid #000;
+    overflow: hidden;
+    max-height: 15rem;
+    width: 30%;
+    transition: height .35s ease;
+}
+@starting-style{
+    .modal .modal-body #collapse-proveedores-newProd.collapsing{
+        position: absolute;
+        height: 0;
+        border-radius: 7px;
+        border: 1px solid #000;
+        overflow-y: hidden;
+        max-height: 15rem;
+        width: 30%;
+    }
+}
+
+#editCategoria .modal-xl,#newCategoria .modal-xl,#newProveedor .modal-xl{
+    width: 50%!important;
+}
+#deleteCategoria .categorias{
+    width: 50%!important;
+}
+
+
+#passAdmin-deleteCatego{
+    width: 75%!important;
+}
+#deleteCategoria .modal-xl{
+    width: 60%!important;
+}
+#newCategoria.modal, #newProveedor.modal, #deleteCategoria.modal, #editCategoria.modal{
+    top: 10%!important;
+}
+
+
+
+
+.modal .modal-footer button{
+    background-color: #FF7878;
+    font-size: large;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 1px 0 #000;
+}
+.modal .modal-footer button:hover{
+    background-color: #ff4b4b;
+}
+.modal .modal-footer input{
+    background-color: #fff;
+    font-size: large;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 1px 0 #000;
+}
+.modal .modal-footer input:hover{
+    background-color: #93a9ff;
+}
+.modal .modal-header .btn-closeNewProducto,.modal .modal-header .btn-closeNewProveedor,.modal .modal-header .btn-closeNewCategoria{
+    background-image: none;
+    height: auto;
+    width: auto;
+}
+.modal .modal-header .btn-closeNewProducto:hover,.modal .modal-header .btn-closeNewProveedor:hover,.modal .modal-header .btn-closeNewCategoria:hover{
+    background-color: #5689f8;
+    cursor: pointer;
+
+}
+.modal .modal-header .btn-closeNewProducto img,.modal .modal-header .btn-closeNewProveedor img,.modal .modal-header .btn-closeNewCategoria img{
+    width: 1.5rem;
+}
+
+
+.new-btns img{
+    width: 2rem;
+}
+.new-btns button{
+    background-color: #fff;
+    height: 3rem;
+    border-radius: 7px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 0px 0px #00000075;
+}
+.new-btns button:hover{
+    background-color: #D9D9D9;
+}
+
+.drop-area{
+    border: 3px dashed #7D9DD0;
+    background-color: #D9D9D9;
+    height: 60%;
+    border-radius: 7px;
+}
+.drop-area.active button, .drop-area.active span{
+    display: none;
+}
+.drop-area.active{
+    background-color: #BBBBBB;
+    color: #000;
+    border: 2px dashed #5C8DDA;
+}
+
+.drop-area h2{
+    font-size: 25px;
+    color: #000;
+}
+.drop-area span{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+.drop-area button{
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    border-radius: 7px;
+    background-color: #421CFF;
+}
+.drop-area button:hover{
+    background-color: #2a129d;
+
+}
+.previewFotos{
+    border: 1px solid #BBBBBB;
+    border-radius: 7px;
+    height: 30%;
+}
+.previewFotos.masTres{
+    overflow-x: scroll;
+}
+.previewFotos img{
+    max-width: 6.4rem;
+}
+.fotos-newProd{
+    max-height: 400px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.categorias{
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 7px;
+    height: 10rem;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+#categoria-newProd{
+    width: 95%;
+}
+.categorias .catego{
+    padding-left: 1.25rem;
+}
+.categorias .img-catego img{
+    width: 1.25rem;
+}
+.categorias .img-catego img:hover{
+    cursor: pointer;
+}
+.categorias .txt-catego{
+    margin-left: 1.5rem!important;
+}
+.categorias .txt-catego,.categorias .btn-catego{
+    text-wrap-mode: nowrap;
+}
+.categorias .txt-catego:hover, #formNewCatego .categorias .btn-catego:hover, .categorias .raiz-catego:hover, #formEditCatego .categorias .btn-catego:hover, #formDeleteCatego .categorias .btn-catego:hover{
+    cursor: pointer;
+}
+
+.input-categoProd, .input-newCatego{
+    background-color: #D7D7D7!important;
+    color: #000;
+}
+
+.modal form input, .modal form select{
+    color: #000;
+}
+.modal form input:focus, .modal form select:focus{
+    color: #000;
+    border-color: #a1c7ff;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #297fff40;
+}
+
+.form-control.invalid{
+    border-color: #dc3545!important;
+    padding-right: calc(.75em + .75rem) !important;
+    background-image: url("@/../assets/icons/invalid.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: right calc(.1em + .1rem) center !important;
+    background-size: calc(0.5em + .75rem) calc(.75em + .75rem) !important;
+}
+input.form-control.invalid:focus,select.form-control.invalid:focus,textarea.form-control.invalid:focus{
+    box-shadow: rgba(220, 53, 69, 0.25) 0px 0px 0px 0.25rem;
+    border-color: rgb(220, 53, 69);
+}
+
+
+.form-control.valid{
+    border-color: #198754;
+    padding-right: calc(.75em + .75rem);
+    background-image: url("@/../assets/icons/valid.svg")!important;
+    background-repeat: no-repeat !important;
+    background-position: right calc(.1em + .1rem) center !important;
+    background-size: calc(0.5em + .75rem) calc(.75em + .75rem) !important;
+}
+input.form-control.valid:focus,select.form-control.valid:focus,textarea.form-control.valid:focus{
+    box-shadow: rgba(25, 135, 84, 0.25) 0px 0px 0px 0.25rem;
+    border-color: #198754;
+}
+.invalid-feedback.is-invalid{
+    display: block;
+}
+.invalid-feedback.is-valid{
+    display: none;
+}
+
+.modal form div.precios div input{
+    padding-left: 1.4rem;
+}
+.modal form div.precios div img{
+    width: 1.2rem;
+    position: absolute;
+    margin-left: 0.4rem;
+}
+
+

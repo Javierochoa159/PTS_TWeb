@@ -1,0 +1,227 @@
+.ventas{
+    background-color: #D9D9D9;
+    min-height: 50vh;
+}
+#gananciasChart{
+    max-height: 20rem!important;
+    width: 100%!important;
+}
+#btnMostrarMasAnios{
+    top: 0;
+    left: 0;
+}
+
+.ventas .cabeceraVentas .detalleRes,.ventas .cuerpoVentas,.ventas .pieVentas{
+    border-bottom: 1px solid #000;
+}
+.ventas .cabeceraVentas .dropdown{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+.ventas .cabeceraVentas .dropdown .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: unset;
+    background-color: unset;
+    border: 1px solid #00000000;
+}
+.ventas .cabeceraVentas img{
+    width: 1rem;
+}
+.ventas .cabeceraVentas .contenedor-resultados{
+    display: contents;
+}
+.ventas .cabeceraVentas .contenedor-resultados .txt-resultados p{
+    padding: 0;
+    margin: 0;
+}
+.ventas .cabeceraVentas .contenedor-resultados .btns-resultados{
+    display: none;
+}
+.ventas .pieventas{
+    min-height: 4.4rem;
+}
+.ventas .pieVentas .contenedor-resultados .txt-resultados{
+    display: none;
+}
+.ventas .pieVentas .contenedor-resultados .btns-resultados a{
+    text-decoration: none;
+}
+.ventas .pieVentas .contenedor-resultados .btns-resultados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ventas .cuerpoVentas .venta{
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #000;
+}
+.ventas .cuerpoVentas .venta .btnDetailVenta:hover{
+    background-color: #d4d9e5;
+}
+.ventas .cuerpoVentas .venta a .nombreVenta{ 
+    border-bottom: 1px solid #000;
+}
+.ventas .cuerpoVentas .venta a .ultimaVenta{ 
+    text-align: end;
+}
+
+.venta .resumenVenta div{
+    border-right: 1px solid #000;
+}
+
+.venta .btnDetailVenta{
+    border-radius: 4px;
+    border: 1px solid #000;
+    padding: 1px;
+}
+
+.venta .btnDetailVenta img{
+    width: 1.25rem;
+}
+
+.venta .card{
+    border: none;
+    border-radius: 0 0 7px 7px;
+    height: inherit;
+    height: inherit;
+    min-height: fit-content;
+}
+
+.venta .collapse-detalleVenta.show{
+    visibility: visible;
+    transition-behavior: allow-discrete;
+}
+.venta h6{
+    border-top: 1px solid #000;
+}
+
+.venta .collapse-detalleVenta .producto .col-7{
+    border-right: 1px solid #000;
+}
+.venta .collapse-detalleVenta.collapse{
+    background-color: #fff;
+    height: fit-content;
+    min-height: 5.65rem;
+    border-radius: 0 0 7px 7px;
+    border: unset;
+    border-top: 1px solid #000;
+    overflow: hidden;
+}
+.venta .collapse-detalleVenta.collapsing{
+    background-color: #fff;
+    height: 0;
+    border-radius: 0 0 7px 7px;
+    border: unset;
+    border-top: 1px solid #000;
+    overflow: hidden;
+    transition: height .35s ease;
+}
+@starting-style{
+    .venta .collapse-detalleVenta.collapsing{
+        background-color: #fff;
+        height: 0;
+        border-radius: 0 0 7px 7px;
+        border: unset;
+        border-top: 1px solid #000;
+        overflow: hidden;
+    }
+    #collapse-filtroFecha.collapsing,#collapse-filtroFechaTotalVenta.collapsing{
+        background-color: #fff;
+        height: 0;
+        border-radius: 7px;
+        border: unset;
+        border: 1px solid #000;
+        overflow: hidden;
+        z-index: 200;
+        top: 2.5rem;
+        width: 275%;
+    }
+}
+
+#collapse-filtroFecha.show,#collapse-filtroFechaTotalVenta.show{
+    visibility: visible;
+    transition-behavior: allow-discrete;
+}
+#collapse-filtroFecha.collapse,#collapse-filtroFechaTotalVenta.collapse{
+    background-color: #fff;
+    height: fit-content;
+    min-height: 7.36rem;
+    border-radius: 7px;
+    border: unset;
+    border: 1px solid #000;
+    overflow: hidden;
+    z-index: 200;
+    top: 2.5rem;
+    width: 275%;
+}
+#collapse-filtroFecha.collapsing,#collapse-filtroFechaTotalVenta.collapsing{
+    background-color: #fff;
+    height: 0;
+    border-radius: 7px;
+    border: unset;
+    border: 1px solid #000;
+    overflow: hidden;
+    z-index: 200;
+    top: 2.5rem;
+    width: 275%;
+    transition: height .35s ease;
+}
+#collapse-filtroFecha .card,#collapse-filtroFechaTotalVenta .card{
+    border: none;
+    border-radius: 7px;
+    height: inherit;
+    height: inherit;
+    min-height: fit-content;
+}
+
+.btnVerVenta{
+    border-top: 1px solid #000;
+}
+.btnVerVenta a{
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+.btnVerVenta a:hover{
+    border: 1px solid #000;
+    background-color: #d4d9e5;
+}
+
+#btn-filtroFechas:hover,
+#btn-filtroFechasTotalVenta:hover,
+#limpiarFiltro:hover,
+#mostrarVentasDevueltas:hover{
+    background-color: #e9ecef;
+}
+
+#btn-filtroFechas,
+#btn-filtroFechasTotalVenta,
+#mostrarVentasDevueltas,
+#filtro-fechas,
+#filtro-fechasTotalVenta,
+#limpiarFiltro{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+
+#proveedoresVentas{
+    max-height: 12rem;
+    overflow-y: auto;
+    width: 12rem;
+}
+
+.selected{
+    background-color: #a1c7ff;
+}
+.collapse-detalleVenta{
+    color: #000;
+}
+
+.totalesVentaTiempo{
+    background-color: #fff;
+}
+.contenedorFechasTotalVenta{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}

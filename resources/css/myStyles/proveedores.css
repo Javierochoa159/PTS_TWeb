@@ -1,0 +1,61 @@
+.proveedores{
+    background-color: #D9D9D9;
+    min-height: 50vh;
+}
+.proveedores .cabeceraProveedores .detalleRes,.proveedores .cuerpoProveedores,.proveedores .pieProveedores{
+    border-bottom: 1px solid #000;
+}
+.proveedores .cabeceraProveedores .detalleRes .dropdown{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+.proveedores .cabeceraProveedores .detalleRes .dropdown .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: unset;
+    background-color: unset;
+    border: 1px solid #00000000;
+}
+.proveedores .cabeceraProveedores .detalleRes img{
+    width: 1rem;
+}
+.proveedores .cabeceraProveedores .contenedor-resultados{
+    display: contents;
+}
+.proveedores .cabeceraProveedores .contenedor-resultados .txt-resultados p{
+    padding: 0;
+    margin: 0;
+}
+.proveedores .cabeceraProveedores .contenedor-resultados .btns-resultados{
+    display: none;
+}
+.proveedores .pieProveedores{
+    min-height: 4.4rem;
+}
+.proveedores .pieProveedores .contenedor-resultados .txt-resultados{
+    display: none;
+}
+.proveedores .pieProveedores .contenedor-resultados .btns-resultados a{
+    text-decoration: none;
+}
+.proveedores .pieProveedores .contenedor-resultados .btns-resultados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.proveedores .cuerpoProveedores .proveedor{
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #000;
+}
+.proveedores .cuerpoProveedores .proveedor:hover{
+    background-color: #d4d9e5;
+}
+.proveedores .cuerpoProveedores .proveedor a .nombreProveedor{ 
+    border-bottom: 1px solid #000;
+}
+.proveedores .cuerpoProveedores .proveedor a .ultimaCompraProveedor{ 
+    text-align: end;
+}
+#btnconfirmMasCompra{
+    background-color: #fff;
+}

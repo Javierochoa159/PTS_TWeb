@@ -1,0 +1,329 @@
+.primerDivProd{
+    background-color: #D9D9D9;
+}
+.producto{
+    background-color: #fff;
+}
+
+.producto .productoTop .totalCodigoProd{
+    border-top: 1px solid #000;
+}
+.producto .productoTop .carousel-inner img{
+    height: 99%;
+}
+
+#fotosProd-newCompra .nombreProd{
+    min-height: 10rem;
+}
+
+#fotosProd-newCompra{
+    width: 20%;
+    border: 1px solid #000;
+    border-radius: 7px;
+    background-color: #fff;
+}
+#fotosProd-newCompra .carousel-inner img{
+    height: 100%;
+    border-radius: 7px;
+}
+
+
+#fotosProd-newCompra .carousel-item-next,#fotosProd-newCompra .carousel-item-prev,#fotosProd-newCompra .carousel-item.active{
+    display: flex!important;
+    justify-content: center!important;
+    padding:0 !important;
+}
+#fotosProd button.carousel-control-next:hover,
+#fotosProd button.carousel-control-prev:hover,
+#fotosProd-newCompra button.carousel-control-next:hover,
+#fotosProd-newCompra button.carousel-control-prev:hover{
+    background-color: #0000005e;
+}
+#fotosProd button.carousel-control-next,
+#fotosProd button.carousel-control-prev,
+#fotosProd-newCompra button.carousel-control-next,
+#fotosProd-newCompra button.carousel-control-prev{
+    width: 8%;
+    margin: 0 5px;
+}
+
+
+#formEditProd .categorias {
+    width: 100%!important;
+}
+
+
+.producto pre{
+    font-family: var(--bs-body-font-family);
+    font-size: medium;
+    text-wrap: auto;
+}
+
+.producto .productoTop .carousel-inner{
+    width: 15rem;
+    height: 15rem;
+}
+#fotosProd-newCompra .carousel-inner{
+    width: 100%;
+    height: auto;
+}
+.producto .productoTop .detallesProd .btnsProd img{
+    width: 1.5rem;
+}
+.producto .productoBottom{
+    border-top: 1px solid #000;
+    min-height: 12rem;
+}
+.producto .productoTop .detallesProd .btnsProd button{
+    border-radius: 7px;
+    border: 1px solid #000;
+    height: fit-content;
+}
+.producto .productoTop .detallesProd .totalPreciosProd{
+    min-height: 10rem;
+}
+.producto .productoTop .detallesProd .btnsProd button.editProducto:hover{
+    background-color: #eaeaea;
+}
+.producto .productoTop .detallesProd .btnsProd button.deleteProducto{
+    background-color: #FFAAAA;
+}
+.producto .productoTop .detallesProd .btnsProd button.deleteProducto:hover{
+    background-color: #ff8b8b;
+}
+
+.producto .detallesProd .precioVentaProd img{
+    width: 1rem;
+    margin-right: 0.1rem;
+}
+.producto .detallesProd .precioVentaProd .btn:hover, .producto .detallesProd .newCompra:hover{
+    background-color: #c1c1c1;
+}
+.producto .detallesProd .precioVentaProd .btn, .producto .detallesProd .newCompra{
+    height: 1.75rem;
+    border-radius: 7px;
+    background-color: #D7D7D7;
+    border: 1px solid #000;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto input{
+    border: 1px solid #000;
+    background-color: #fff;
+    border-right: none;
+    height: 1.75rem;
+    border-radius: 7px 0 0 7px;
+}
+
+#formNewCompra input:focus, #formNewCompra select:focus{
+    border-color: #ced4da!important;
+    box-shadow: none!important;
+}
+
+#formNewCompra .medidaProducto input{
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    border-right: none;
+    height: 1.75rem;
+    border-radius: 7px 0 0 7px;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto select{
+    width: 3rem;
+    height: 1.75rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 0 7px 7px 0;
+    background-color: #3F1DFD;
+    color: #fff;
+    border: 1px solid #000;
+}
+#formNewCompra .medidaProducto select{
+    width: 3rem;
+    height: 1.75rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 0 7px 7px 0;
+    background-color: #3F1DFD;
+    color: #fff;
+    border: 1px solid #ced4da;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto p{
+    width: 2.5rem;
+    height: 1.75rem;
+    text-align: center;
+    border-radius: 0 7px 7px 0;
+    background-color: #3F1DFD;
+    color: #fff;
+    border: 1px solid #000;
+}
+#formNewCompra .medidaProducto p{
+    width: 2.5rem;
+    height: 1.75rem;
+    text-align: center;
+    border-radius: 0 7px 7px 0;
+    background-color: #3F1DFD;
+    color: #fff;
+    border: 1px solid #ced4da;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto select,
+#formNewCompra select,
+.producto .detallesProd .precioVentaProd .medidaProducto ::picker(select),
+#formNewCompra ::picker(select){
+    appearance: base-select;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto select,
+#formNewCompra select{
+    align-items: center;
+}
+#formNewCompra select selectedcontent{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto select::picker-icon,
+#formNewCompra .medidaProducto select::picker-icon{
+    color: #00000000;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-image: url("@/../assets/icons/down_white.svg");
+    background-repeat: no-repeat;
+    background-size: 0.75rem;
+    background-position: center;
+}
+#formNewCompra select::picker-icon{
+    color: #00000000;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-image: url("@/../assets/icons/down.svg");
+    background-repeat: no-repeat;
+    background-size: 0.75rem;
+    background-position: center;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto select:open::picker-icon,
+#formNewCompra .medidaProducto select:open::picker-icon{
+    background-image: url("@/../assets/icons/up_white.svg")!important;
+}
+#formNewCompra select:open::picker-icon{
+    background-image: url("@/../assets/icons/up.svg")!important;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto ::picker(select),
+#formNewCompra ::picker(select){
+    border: 1px solid #ced4da;
+    border-radius: 7px;
+    width: fit-content;
+    overflow-x: auto;
+    max-height: 12rem;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto select option,
+#formNewCompra select option{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 100%;
+    gap: unset;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto select option:nth-of-type(odd),
+#formNewCompra select option:nth-of-type(odd){
+    background-color: #f5f5f5;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto select option:hover,
+#formNewCompra select option:hover{
+    background-color: #e1e1e1;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto select option:checked,
+#formNewCompra select option:checked{
+    background-color: #D7D7D7;
+}
+.producto .detallesProd .precioVentaProd .medidaProducto select option::checkmark,
+#formNewCompra select option::checkmark{
+    content: none;
+}
+
+.modal .modal-body #btn-proveedores-editProd, #formNewCompra select{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ced4da;
+}
+.modal .modal-body #btn-proveedores-editProd img{
+    width: 1rem;
+}
+.modal .modal-body #collapse-proveedores-editProd.show{
+    visibility: visible;
+    transition-behavior: allow-discrete;
+}
+.modal .modal-body #collapse-proveedores-editProd .card{
+    border-radius: unset;
+    border: unset;
+    height: 14.75rem;
+    overflow-y: auto;
+}
+.modal .modal-body #collapse-proveedores-editProd .card label{
+    width: 100%;
+    font-size: large;
+}
+.modal .modal-body #collapse-proveedores-editProd .card label:hover{
+    cursor: pointer;
+    background-color: #93a9ff;
+}
+.modal .modal-body #collapse-proveedores-editProd.collapse{
+    position: absolute;
+    height: 15rem;
+    border-radius: 7px;
+    border: 1px solid #000;
+    overflow-y: hidden;
+    width: 30%;
+}
+.modal .modal-body #collapse-proveedores-editProd.collapsing{
+    position: absolute;
+    height: 0;
+    border-radius: 7px;
+    border: 1px solid #000;
+    overflow: hidden;
+    max-height: 15rem;
+    width: 30%;
+    transition: height .35s ease;
+}
+@starting-style{
+    .modal .modal-body #collapse-proveedores-editProd.collapsing{
+        position: absolute;
+        height: 0;
+        border-radius: 7px;
+        border: 1px solid #000;
+        overflow-y: hidden;
+        max-height: 15rem;
+        width: 30%;
+    }
+}
+
+#proveedor-newCompra{
+    width: 58.33333333%!important;
+}
+#metodoPago-newCompra{
+    width: 58.33333333%!important;
+}
+#formNewCompra .nombreProd{
+    min-height: 10rem;
+}
+
+#formNewCompra .pieNewCompra{
+    min-height: 20rem;
+}
+#formNewCompra .precios p{
+    border: 1px solid #ced4da;
+    border-radius: 7px;
+    background-color: #ced4da;
+    font-weight: normal;
+}
+#formNewCompra .drop-area{
+    min-height: 10rem;
+}
+
+#newCompra .modal-xl,#deleteProducto .modal-xl{
+    width: 60%!important;
+}
+#deleteProducto .modal-xl{
+    top: 10%!important;
+}
+#passAdmin-deleteProd{
+    width: 85%!important;
+}
+

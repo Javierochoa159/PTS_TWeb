@@ -1,0 +1,110 @@
+.primerDivProv{
+    background-color: #D9D9D9;
+    border-radius: 7px;
+}
+
+.proveedor{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 7px;
+    min-height: 15rem;
+}
+.proveedor .infoProv button{
+    border-radius: 7px;
+    border: 1px solid #000;
+    height: fit-content;
+}
+.proveedor .infoProv button.editProveedor img,.proveedor .infoProv button.deleteProveedor img{
+    width: 1.5rem;
+}
+.proveedor .infoProv button.editProveedor:hover{
+    background-color: #eaeaea;
+}
+.proveedor .infoProv button.deleteProveedor{
+    background-color: #FFAAAA;
+}
+.proveedor .infoProv button.deleteProveedor:hover{
+    background-color: #ff8b8b;
+}
+.proveedor .infoProv .descripProv{
+    min-height: 10rem;
+}
+.productos .producto .cabezaProducto{
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+.productos .producto a{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1px;
+}
+.productos .producto img{
+    height: 99%;
+}
+
+.productos .producto .detalleProd{
+    min-height: 8rem;
+}
+
+.productos #btn-productosProv{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000000;
+}
+.productos #btn-productosProv img{
+    width: 1.25rem;
+}
+.productos .cantDispo{
+    width: 45%;
+}
+.productos #collapse-productosProv.show{
+    visibility: visible;
+    transition-behavior: allow-discrete;
+}
+.proveedor h6{
+    border-top: 1px solid #000;
+}
+.productos #collapse-productosProv .card{
+    border-radius: 7px;
+    border: unset;
+    height: 30.75rem;
+    overflow-y: auto;
+}
+
+.productos #collapse-productosProv .producto{
+    border-bottom: 1px solid #000;
+}
+.productos #collapse-productosProv.collapse{
+    background-color: #fff;
+    height: 31rem;
+    border-radius: 7px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+.productos #collapse-productosProv.collapsing{
+    background-color: #fff;
+    height: 0;
+    border-radius: 7px;
+    border: 1px solid #000;
+    overflow: hidden;
+    max-height: 31rem;
+    transition: height .35s ease;
+}
+@starting-style{
+    .productos #collapse-productosProv.collapsing{
+        background-color: #fff;
+        height: 0;
+        border-radius: 7px;
+        border: 1px solid #000;
+        overflow-y: hidden;
+        max-height: 31rem;
+    }
+}
+
+#editProveedor .modal-xl, #deleteProveedor .modal-xl{
+    width: 50%!important;
+}

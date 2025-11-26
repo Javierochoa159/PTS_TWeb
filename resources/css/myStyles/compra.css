@@ -1,0 +1,84 @@
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+    display: flex!important;
+    justify-content: center!important;
+    padding-bottom:5px !important;
+    padding-top:5px !important;
+}
+.carousel-control-next:hover,
+.carousel-control-prev:hover{
+    background-color: #0000005e;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    width: 8%;
+}
+.carousel-inner{
+    width: 100%;
+    height: inherit;
+}
+.carousel,.carousel-item {
+    height: inherit;
+}
+
+.recibosTd{
+    background-color: #d4d9e5;
+    height: 22rem;
+    border-left: unset!important;
+    border-right: unset!important;
+}
+
+.lastTr td.lastTd{
+    border-left: 1px solid #000!important;
+}
+
+.lastTr td.proveedorCompra{
+    border-right: 1px solid #000!important;
+}
+#recibosCompra{
+    height: inherit;
+    width: auto;
+}
+
+.verticalAlign{
+    vertical-align: top;
+}
+.border_bottom{
+    border-bottom: 1px solid #000;
+}
+
+#modalEliminarCompra .modal-xl,#modalEditarCompra .modal-xl,#modalRevertirCompra .modal-xl{
+    width: 60%!important;
+    top: 10%!important;
+}
+#passAdmin-deleteCompra,#passAdmin-editCompra,#passAdmin-revertCompra{
+    width: 85%!important;
+}
+
+
+.btnsCompra button,.btneditarCompra{
+    border: 1px solid #000;
+}
+.btnsCompra button:hover,.btnEditarCompra:hover{
+    border: 1px solid #000;
+    background-color: #eaeaea;
+}
+
+.btnDeleteC,.btnRevertC{
+    background-color: #FFAAAA;
+}
+.btnDeleteC:hover,.btnRevertC:hover{
+    background-color: #ff8b8b!important;
+}
+
+.btnEditarCompra{
+    background-color: #D7D7D7;
+}
+
+.tdBtnsCompra{
+    border-top: none!important;
+    border-left: none!important;
+    border-bottom: none!important;
+    border-right: none!important;
+}

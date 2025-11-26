@@ -1,0 +1,225 @@
+.compras{
+    background-color: #D9D9D9;
+    min-height: 50vh;
+}
+
+#gastosChart{
+    max-height: 20rem!important;
+    width: 100%!important;
+}
+#btnMostrarMasAnios{
+    top: 0;
+    left: 0;
+}
+
+.compras .cabeceraCompras .detalleRes,.compras .cuerpoCompras,.compras .pieCompras{
+    border-bottom: 1px solid #000;
+}
+.compras .cabeceraCompras .dropdown{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+.compras .cabeceraCompras .dropdown .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: unset;
+    background-color: unset;
+    border: 1px solid #00000000;
+}
+.compras .cabeceraCompras img{
+    width: 1rem;
+}
+.compras .cabeceraCompras .contenedor-resultados{
+    display: contents;
+}
+.compras .cabeceraCompras .contenedor-resultados .txt-resultados p{
+    padding: 0;
+    margin: 0;
+}
+.compras .cabeceraCompras .contenedor-resultados .btns-resultados{
+    display: none;
+}
+.compras .piecompras{
+    min-height: 4.4rem;
+}
+.compras .pieCompras .contenedor-resultados .txt-resultados{
+    display: none;
+}
+.compras .pieCompras .contenedor-resultados .btns-resultados a{
+    text-decoration: none;
+}
+.compras .pieCompras .contenedor-resultados .btns-resultados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.compras .cuerpoCompras .compra{
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #000;
+}
+.compras .cuerpoCompras .compra .btnDetailCompra:hover{
+    background-color: #d4d9e5;
+}
+.compras .cuerpoCompras .compra a .nombreCompra{ 
+    border-bottom: 1px solid #000;
+}
+.compras .cuerpoCompras .compra a .ultimaCompra{ 
+    text-align: end;
+}
+
+.compra .resumenCompra p{
+    border-right: 1px solid #000;
+}
+
+.compra .btnDetailCompra{
+    border-radius: 4px;
+    border: 1px solid #000;
+    padding: 1px;
+}
+
+.compra .btnDetailCompra img{
+    width: 1.25rem;
+}
+
+.compra .card{
+    border: none;
+    border-radius: 0 0 7px 7px;
+    height: inherit;
+    height: inherit;
+    min-height: fit-content;
+}
+
+.compra .collapse-detalleCompra.show{
+    visibility: visible;
+    transition-behavior: allow-discrete;
+}
+.compra h6{
+    border-top: 1px solid #000;
+}
+
+.compra .collapse-detalleCompra .producto .col-7{
+    border-right: 1px solid #000;
+}
+.compra .collapse-detalleCompra.collapse{
+    background-color: #fff;
+    height: fit-content;
+    min-height: 5.65rem;
+    border-radius: 0 0 7px 7px;
+    border: unset;
+    border-top: 1px solid #000;
+    overflow: hidden;
+}
+.compra .collapse-detalleCompra.collapsing{
+    background-color: #fff;
+    height: 0;
+    border-radius: 0 0 7px 7px;
+    border: unset;
+    border-top: 1px solid #000;
+    overflow: hidden;
+    transition: height .35s ease;
+}
+@starting-style{
+    .compra .collapse-detalleCompra.collapsing{
+        background-color: #fff;
+        height: 0;
+        border-radius: 0 0 7px 7px;
+        border: unset;
+        border-top: 1px solid #000;
+        overflow: hidden;
+    }
+    #collapse-filtroFecha.collapsing,#collapse-filtroFechaTotalCompra.collapsing{
+        background-color: #fff;
+        height: 0;
+        border-radius: 7px;
+        border: unset;
+        border: 1px solid #000;
+        overflow: hidden;
+        z-index: 200;
+        top: 2.5rem;
+        width: 275%;
+    }
+}
+
+#collapse-filtroFecha.show,#collapse-filtroFechaTotalCompra.show{
+    visibility: visible;
+    transition-behavior: allow-discrete;
+}
+#collapse-filtroFecha.collapse,#collapse-filtroFechaTotalCompra.collapse{
+    background-color: #fff;
+    height: fit-content;
+    min-height: 7.36rem;
+    border-radius: 7px;
+    border: unset;
+    border: 1px solid #000;
+    overflow: hidden;
+    z-index: 200;
+    top: 2.5rem;
+    width: 275%;
+}
+#collapse-filtroFecha.collapsing,#collapse-filtroFechaTotalCompra.collapsing{
+    background-color: #fff;
+    height: 0;
+    border-radius: 7px;
+    border: unset;
+    border: 1px solid #000;
+    overflow: hidden;
+    z-index: 200;
+    top: 2.5rem;
+    width: 275%;
+    transition: height .35s ease;
+}
+#collapse-filtroFecha .card,#collapse-filtroFechaTotalCompra .card{
+    border: none;
+    border-radius: 7px;
+    height: inherit;
+    height: inherit;
+    min-height: fit-content;
+}
+
+.btnVerCompra{
+    border-top: 1px solid #000;
+}
+.btnVerCompra a{
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+.btnVerCompra a:hover{
+    border: 1px solid #000;
+    background-color: #d4d9e5;
+}
+
+#btn-filtroFechas:hover,
+#btn-filtroFechasTotalCompra:hover,
+#limpiarFiltro:hover{
+    background-color: #e9ecef;
+}
+
+#btn-filtroFechasTotalCompra,
+#btn-filtroFechas,
+#filtro-fechas,
+#filtro-fechasTotalCompra,
+#limpiarFiltro{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+
+#proveedoresCompras{
+    max-height: 12rem;
+    overflow-y: auto;
+    width: 12rem;
+}
+
+.selected{
+    background-color: #a1c7ff;
+}
+
+.totalesCompraTiempo{
+    background-color: #fff;
+}
+.contenedorFechasTotalCompra{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
