@@ -41,3 +41,7 @@ Lo siguiente que deberá hacer es configurar el archivo .env proporcionado por L
   Y dentro de "uploads" se deberá crear la carpeta "fotos", la cual contendrá las carpetas "productos" y "recibos".
   
   Ademas, dentro de "recibos" se tienen que crear las carpetas "compras", "devolucionesVentas" y "ventas".
+  
+  ## Actualmente el proyecto se encuentra alojado en 'https://practicastecweb.42web.io/'
+  
+  ## La contraseña de administrador es 'C@ntAdm1nApp'.
